@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fajita.mk
+    $(LOCAL_DIR)/aosip_fajita.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosip_fajita-user \
+    aosip_fajita-userdebug \
+    aosip_fajita-eng
